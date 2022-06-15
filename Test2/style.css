@@ -1,0 +1,43 @@
+* {
+    
+    transition: 0.2s ease all;
+}
+
+body div {
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panelOff {
+    padding: 0 18px;
+    background-color: white;
+    width: 80%;
+    display: none;
+    transition: 0.2s ease all;
+}
+
+.panelOn {
+    padding: 0 18px;
+    background-color: white;
+    width: 80%;
+    display: block;
+    transition: 0.2s ease all;
+}
